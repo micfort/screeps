@@ -12,14 +12,14 @@ module.exports = {
     maxCreeps: {
         "repairder": 0,
         "builder2": 0,
-        "builder": 0,
+        "builder": 1,
         "upgrader": 0,
-        "harvester": 1,
-        "miner": 1,
+        "harvester": 2,
+        "miner": 0,
     },
     creepTemplate:
     {
-        "builder": "worker",
+        "builder": "smallWorker",
         "builder2": "worker",
         "harvester": "smallWorker",
         "upgrader": "worker",
