@@ -4,7 +4,7 @@ var roleBuilder = require('role.builder');
 var roleMiner = require('role.miner');
 var roleRepairder = require('role.repairder');
 
-var roleSpawn = require('roleSpawn');
+var roleSpawn = require('role.spawn');
 
 module.exports.loop = function () {
 
