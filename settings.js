@@ -12,8 +12,8 @@ module.exports = {
     maxCreeps: {
         "repairder": 0,
         "builder2": 0,
-        "builder": 1,
-        "upgrader": 0,
+        "builder": 0,
+        "upgrader": 1,
         "harvester": 2,
         "miner": 0,
     },
@@ -22,7 +22,7 @@ module.exports = {
         "builder": "smallWorker",
         "builder2": "worker",
         "harvester": "smallWorker",
-        "upgrader": "worker",
+        "upgrader": "smallWorker",
         "miner": "miner",
         "repairder": "repairder"
     },
